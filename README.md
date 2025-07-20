@@ -158,9 +158,22 @@ This project overcame several technical challenges:
 3. Test on actual Axis hardware
 4. Submit pull request with detailed description
 
+## 🙏 Acknowledgments
+
+### Dataset Credits
+This project's machine learning model was trained using audio data from:
+- **UrbanSound8K Dataset**: We gratefully acknowledge the use of the UrbanSound8K dataset created by NYU's Music and Audio Research Lab (MARL). 
+  - J. Salamon, C. Jacoby and J. P. Bello, "A Dataset and Taxonomy for Urban Sound Research", 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.
+  - Dataset available at: https://urbansounddataset.weebly.com/urbansound8k.html
+
+### Special Thanks
+- NYU's Music and Audio Research Lab for making their urban sound datasets publicly available
+- The Axis ACAP development team for their platform and documentation
+- The open source community for the various tools and libraries used in this project
+
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 © 2025 Claude Coding. All rights reserved.
 

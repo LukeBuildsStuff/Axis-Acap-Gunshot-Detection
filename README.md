@@ -1,5 +1,7 @@
 # Edge Gunshot Detector for Axis Cameras
 
+Can a complete and utter noob vibe code an Axis "on the edge" gunshot detection system?
+
 A real-time gunshot detection system for Axis cameras using machine learning, audio analysis, and email notifications.
 
 **Developed by Claude Coding**

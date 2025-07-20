@@ -1,0 +1,60 @@
+# Build artifacts
+*.o
+*.eap
+edge_gunshot_detector
+gunshot_detector
+
+# Build directories
+build/
+*_build/
+*_extract/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+*~
+
+# Development artifacts
+comparison_temp/
+extracted_backup/
+v1*_extract/
+v1*_build/
+html/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (keep only the production model)
+*.pt
+*.onnx
+*.png
+gunshot_model.tflite
+gunshot_model_*.tflite
+!gunshot_model_real_audio.tflite
+
+# Configuration backups
+config.json
+
+# Old versions and experimental files
+gunshot_detector_*.c
+!gunshot_detector_v1192_official.c
+Dockerfile.*
+package_*.sh
+*_temp/
+*.wav
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archives and packages
+*.tar.gz
+*.zip
+
+# Documentation exports
+*.pdf

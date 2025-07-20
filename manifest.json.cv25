@@ -1,0 +1,60 @@
+{
+    "schemaVersion": "1.7.3",
+    "resources": {
+        "linux": {
+            "user": {
+                "groups": ["pipewire"]
+            }
+        }
+    },
+    "acapPackageConf": {
+        "setup": {
+            "friendlyName": "Edge Gunshot Detector LAROD CV25 v1.2.104",
+            "appName": "edge_gunshot_detector",
+            "vendor": "Claude Coding",
+            "embeddedSdkVersion": "3.0",
+            "runMode": "never",
+            "version": "1.2.104",
+            "architecture": "aarch64"
+        },
+        "configuration": {
+            "paramConfig": [
+                {
+                    "name": "threshold",
+                    "default": "45",
+                    "type": "int:30,70"
+                },
+                {
+                    "name": "email_enabled",
+                    "default": "no",
+                    "type": "bool:no,yes"
+                },
+                {
+                    "name": "smtp_server",
+                    "default": "smtp.gmail.com",
+                    "type": "string"
+                },
+                {
+                    "name": "smtp_port",
+                    "default": "587",
+                    "type": "int:25,65535"
+                },
+                {
+                    "name": "smtp_username",
+                    "default": "",
+                    "type": "string"
+                },
+                {
+                    "name": "smtp_password",
+                    "default": "",
+                    "type": "string"
+                },
+                {
+                    "name": "recipient_email",
+                    "default": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }
+}
